@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=DM+Serif+Display:regular,italic);
+@import url(https://fonts.googleapis.com/css?family=Karla:200,300,regular,500,600,700,800,200italic,300italic,italic,500italic,600italic,700italic,800italic);
+
+
+
+
+
+#headcontainer{
+    display: flex;
+    flex-direction: row;
+    background-color: hsl(256, 26%, 20%);
+
+}
+#headcontaintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+#headpar{
+    font-family: 'Karla',sans-serif;
+    padding-top: 25px;
+}
+#viewplans{
+    font-family: 'Karla',sans-serif;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    width: 200px;
+    height: 50px;
+}
+#humanizing{
+    font-family: 'DM Serif Display',sans-serif;
+    font-weight: 400;
+}
+#differentHead{
+    font-family: 'DM Serif Display',sans-serif;
+    font-weight: 400;
+}
+
+#infoRow{
+    display: flex;
+}
+.infoCols{
+    display: flex;
+    flex-direction: column;
+}
+.circleIcons{
+    width: 10em;
+    height: 10em;
+}
+#findoutDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#findoutHead{
+    font-family: 'DM Serif Display',sans-serif;
+    font-weight: 400;
+}
+
+#bottomhalf{
+    margin-top: 150px;
+    padding-bottom: 100px;
+}
