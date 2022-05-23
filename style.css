@@ -7,12 +7,23 @@ a{
     color: hsl(273, 4%, 51%);
     padding-right: 15px;
 }
+#navbarRight{
+    display: flex;
+    justify-content: flex-end;
+}
 #viewplansbtn{
     background-color: transparent;
     color: hsl(256, 26%, 20%);
     border-radius: 0;
     padding-left: 15px;
     padding-right: 15px;
+    border: 1px solid black;
+    margin-top: 5px;
+    transition: 1s;
+}
+#viewplans:hover{
+    background-color: white;
+    color: hsl(256, 26%, 20%);
 }
 
 #headimg{
@@ -145,17 +156,75 @@ a{
 .footercols{
     display: flex;
     flex-direction: column;
-    color: hsl(273, 4%, 51%);
+    color: hsl(270, 9%, 17%);
 
 }
 .footerheads{
-    color: hsl(270, 9%, 17%);
-
+    
+    color: hsl(273, 4%, 51%);
 }
 .footercols, p{
     cursor: pointer;
 }
+#headimgmobile{
+    display: none;
+}
 
 @media (max-width:800px){
-    
+    #headcontaintext{
+        padding: 0;
+    }
+    #headimg{
+        display: none;
+    }
+    #headimgmobile{
+        display: inline;
+    }
+    #headcontainer{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 40px;
+        
+    }
+    #btndiv{
+        display: flex;
+        justify-content: center;
+    }
+    #bottomhalf{
+        display: flex;
+        flex-direction: column;
+    }
+    #infoRow{
+        display: flex;
+        flex-direction: column;
+    }
+    .infoCols{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .rowPars{
+        padding-right: 0;
+    }
+    #footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footerheads{
+        padding-top: 20px;
+        border-top: 1px solid black;
+    }
+    #differentHead{
+        text-align: center;
+    }
+    #findoutDiv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0;
+    }
+    #howweworkbtn{
+        margin-right: 0;
+    }
 }
